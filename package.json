@@ -1,0 +1,32 @@
+{
+  "name": "shark",
+  "version": "0.0.1",
+  "description": "The flexible build system",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shark-js/shark"
+  },
+  "keywords": [
+    "build"
+  ],
+  "author": "Vadim Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shark-js/shark/issues"
+  },
+  "homepage": "https://github.com/shark-js/shark",
+  "engines": {
+    "node": ">=0.11.14 <0.12",
+    "npm": ">=2.1.5"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "should": "^4.1.0"
+  }
+}
