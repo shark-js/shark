@@ -4,7 +4,7 @@
   "description": "The flexible build system",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "node_modules/.bin/mocha --harmony ./test"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,17 @@
     "npm": ">=2.1.5"
   },
   "engineStrict": true,
+  "dependencies": {
+    "co": "^3.1.0",
+    "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
+    "expand": "git://github.com/shark-js/expand",
+    "extsprintf": "^1.2.0",
+    "shark-logger": "git://github.com/shark-js/shark-logger",
+    "verror": "^1.4.0",
+    "yargs": "^1.3.3"
+  },
   "devDependencies": {
-    "istanbul": "^0.3.2",
-    "mocha": "^2.0.1",
-    "should": "^4.1.0"
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
   }
 }
