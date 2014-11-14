@@ -2,7 +2,7 @@
   "name": "shark",
   "version": "0.0.1",
   "description": "The flexible build system",
-  "main": "index.js",
+  "main": "lib/runner.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --harmony ./test"
   },
