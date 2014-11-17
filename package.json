@@ -25,7 +25,7 @@
   },
   "engineStrict": true,
   "dependencies": {
-    "co": "^3.1.0",
+    "co": "^4.0.0",
     "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
     "expand": "git://github.com/shark-js/expand",
     "extsprintf": "^1.2.0",
