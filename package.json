@@ -1,6 +1,6 @@
 {
   "name": "shark-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The flexible build system",
   "main": "lib/runner.js",
   "scripts": {
