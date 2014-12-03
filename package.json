@@ -1,5 +1,5 @@
 {
-  "name": "shark",
+  "name": "shark-core",
   "version": "0.0.1",
   "description": "The flexible build system",
   "main": "lib/runner.js",
