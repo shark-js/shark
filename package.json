@@ -1,6 +1,6 @@
 {
   "name": "shark-core",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "The flexible build system",
   "main": "lib/runner.js",
   "scripts": {
@@ -29,12 +29,22 @@
     "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
     "expand": "git://github.com/shark-js/expand",
     "extsprintf": "^1.2.0",
-    "shark-logger": "git://github.com/shark-js/shark-logger",
-    "verror": "^1.4.0",
     "yargs": "^1.3.3"
   },
   "devDependencies": {
     "chai": "^1.9.2",
     "mocha": "^2.0.1"
-  }
+  },
+  "peerDependencies": {
+    "verror": "^1.4.0",
+    "shark-tree": "*",
+    "shark-logger": "*"
+  },
+  "files": [
+    "lib",
+    "test",
+    "CHANGELOG.md",
+    "LICENCE",
+    "README.md"
+  ]
 }
