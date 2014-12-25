@@ -1,6 +1,6 @@
 {
   "name": "shark-core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The flexible build system",
   "main": "lib/runner.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "engineStrict": true,
   "dependencies": {
+    "chokidar": "^0.12.5",
     "co": "^4.0.0",
     "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
     "expand": "git://github.com/shark-js/expand",
