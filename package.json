@@ -25,6 +25,7 @@
   },
   "engineStrict": true,
   "dependencies": {
+    "change-case": "^2.2.0",
     "chokidar": "^0.12.6",
     "co": "^4.0.0",
     "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
