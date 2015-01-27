@@ -10,7 +10,7 @@ $ npm install shark-cli -g
 ```
 
 
-#### 2. Add next line to your ~/.bashrc or ~/.zshrc which enables shark tab-completion
+#### 2. Add next line to your ~/.bashrc or ~/.zshrc to enable shark tab-completion
 
 ```sh
 . <(shark completion)
