@@ -1,8 +1,8 @@
 Shark
 ===
 
-[![Build Status](https://travis-ci.org/shark-js/shark.svg?branch=master)](https://travis-ci.org/shark-js/shark)
-[![Coverage Status](https://coveralls.io/repos/shark-js/shark/badge.png?branch=master)](https://coveralls.io/r/shark-js/shark)
+[![Build Status](https://img.shields.io/travis/shark-js/shark/master.svg)](https://travis-ci.org/shark-js/shark)
+[![Coverage Status](https://img.shields.io/coveralls/shark-js/shark/master.svg)](https://coveralls.io/r/shark-js/shark)
 # Getting Started
 
 #### 1. Install shark-cli globally:
