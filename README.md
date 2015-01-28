@@ -1,6 +1,8 @@
 Shark
 ===
 
+[![Build Status](https://travis-ci.org/shark-js/shark.svg?branch=master)](https://travis-ci.org/shark-js/shark)
+
 # Getting Started
 
 #### 1. Install shark-cli globally:
