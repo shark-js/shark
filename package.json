@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/shark-js/shark",
   "engines": {
-    "node": ">=0.11.14 <0.12",
+    "node": ">=0.11.14",
     "npm": ">=2.1.5"
   },
   "engineStrict": true,
