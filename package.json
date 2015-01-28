@@ -4,7 +4,7 @@
   "description": "The flexible build system",
   "main": "lib/runner.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --harmony ./test"
+    "test": "make test-coveralls"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,10 @@
   },
   "devDependencies": {
     "chai": "^1.9.2",
-    "mocha": "^2.0.1"
+    "coveralls": "^2.11.2",
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "^2.0.1",
+    "mocha-lcov-reporter": "0.0.1"
   },
   "peerDependencies": {
     "verror": "^1.4.0",

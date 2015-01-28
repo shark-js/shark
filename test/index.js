@@ -1,7 +1,8 @@
 'use strict';
 
-describe('Initial test',function(){
+const Shark = require('../');
 
+describe('Initial test',function(){
 	it('should output nothing',function(){
 
 	});
