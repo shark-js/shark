@@ -4,6 +4,6 @@ node_js:
 before_install:
   - npm install -g npm@latest
 script:
-  - npm test-coveralls
+  - npm run test-coveralls
 notifications:
   email: false
