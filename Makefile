@@ -8,7 +8,6 @@ test-cov:
 	./node_modules/mocha/bin/_mocha -- -R spec
 
 test-coveralls:
-	echo TRAVIS_JOB_ID $(TRAVIS_JOB_ID)
 	$(MAKE) test
 	@NODE_ENV=test node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover \
 	./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && \

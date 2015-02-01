@@ -4,7 +4,9 @@
   "description": "The flexible build system",
   "main": "lib/runner.js",
   "scripts": {
-    "test": "make test-coveralls"
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "test-coveralls": "make test-coveralls"
   },
   "repository": {
     "type": "git",
