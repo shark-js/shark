@@ -4,9 +4,9 @@
   "description": "The flexible build system",
   "main": "lib/runner.js",
   "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "test-coveralls": "make test-coveralls"
+    "test": "set NODE_ENV=test; node --harmony ./node_modules/mocha/bin/_mocha -b --reporter spec",
+    "test-cov": "set NODE_ENV=test; node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec",
+    "test-coveralls": "npm run test; set NODE_ENV=test; node --harmony ./node_modules/istanbul-harmony/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js || true"
   },
   "repository": {
     "type": "git",
