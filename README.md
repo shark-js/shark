@@ -2,6 +2,7 @@ Shark
 ===
 
 [![Build Status](https://img.shields.io/travis/shark-js/shark/master.svg)](https://travis-ci.org/shark-js/shark)
+[![Build status](https://ci.appveyor.com/api/projects/status/umxg297hoyjd4iq2?svg=true)](https://ci.appveyor.com/project/vadimgoncharov/shark)
 [![Coverage Status](https://img.shields.io/coveralls/shark-js/shark/master.svg)](https://coveralls.io/r/shark-js/shark)
 # Getting Started
 
